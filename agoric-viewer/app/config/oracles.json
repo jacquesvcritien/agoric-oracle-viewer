@@ -1,0 +1,10 @@
+{
+    "rpc": "http://172.27.152.13:26657",
+    "oracleAddresses": {
+        "agoric1krunjcqfrf7la48zrvdfeeqtls5r00ep68mzkr" : { "oracleName": "Simply Staking" },
+        "agoric144rrhh4m09mh7aaffhm6xy223ym76gve2x7y78" : { "oracleName": "DSRV" },
+        "agoric19d6gnr9fyp6hev4tlrg87zjrzsd5gzr5qlfq2p" : { "oracleName": "Stakin" },
+        "agoric1n4fcxsnkxe4gj6e24naec99hzmc4pjfdccy5nj" : { "oracleName": "P2P" },
+        "agoric19uscwxdac6cf6z7d5e26e0jm0lgwstc47cpll8" : { "oracleName": "01node" }
+    }
+}
