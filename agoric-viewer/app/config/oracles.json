@@ -1,5 +1,5 @@
 {
-    "rpc": "http://172.27.152.13:26657",
+    "rpc": "https://main.rpc.agoric.net:443",
     "oracleAddresses": {
         "agoric1krunjcqfrf7la48zrvdfeeqtls5r00ep68mzkr" : { "oracleName": "Simply Staking" },
         "agoric144rrhh4m09mh7aaffhm6xy223ym76gve2x7y78" : { "oracleName": "DSRV" },

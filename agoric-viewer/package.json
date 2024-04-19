@@ -9,6 +9,7 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"@agoric/casting": "^0.4.3-u14.0",
 		"@nextui-org/button": "^2.0.28",
 		"@nextui-org/code": "^2.0.25",
 		"@nextui-org/input": "^2.1.18",
