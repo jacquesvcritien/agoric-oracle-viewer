@@ -1,9 +1,12 @@
 {
-	"name": "next-app-template",
+	"name": "nagoric-oracle-viewer",
 	"version": "0.0.1",
+	"homepage": "https://jacquesvcritien.github.io/agoric-oracle-viewer",
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint"
@@ -40,5 +43,8 @@
 		"tailwind-variants": "^0.1.20",
 		"tailwindcss": "3.4.3",
 		"typescript": "5.0.4"
+	},
+	"devDependencies": {
+		"gh-pages": "^6.1.1"
 	}
 }
