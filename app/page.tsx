@@ -150,7 +150,7 @@ export default function Home() {
 				if(walletInfo.submission){
 					found = true;
 
-					if(walletInfo.submission.roundId != -1){
+					if(walletInfo.submission.roundId != -1 && walletInfo.submission.roundId == feedDetails[feed].round){
 						oracleSubmissions[feed][walletInfo.submission.roundId][oraclesConfig.oracleAddresses[oracle].oracleName] = walletInfo.submission
 						// Sort submissions in descending
 						oracleSubmissions[feed][walletInfo.submission.roundId] = sortSubmissionsByUnitPriceDesc(oracleSubmissions[feed][walletInfo.submission.roundId])

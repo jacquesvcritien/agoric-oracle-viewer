@@ -7,7 +7,7 @@ export const Logo: React.FC<IconSvgProps> = ({
 	width,
 	height,
 }) => (
-	<Image src="/logo.png" height={Number(size || height)} width={Number(size || width)} alt="Logo" ></Image>
+	<Image src="/agoric-oracle-viewer/logo.png" height={Number(size || height)} width={Number(size || width)} alt="Logo" ></Image>
 );
 
 export const DiscordIcon: React.FC<IconSvgProps> = ({

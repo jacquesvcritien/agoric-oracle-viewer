@@ -18,9 +18,9 @@ export const metadata: Metadata = {
 		{ media: "(prefers-color-scheme: dark)", color: "black" },
 	],
 	icons: {
-		icon: "/favicon.ico",
-		shortcut: "/favicon-16x16.png",
-		apple: "/apple-touch-icon.png",
+		icon: "/agoric-oracle-viewer/favicon.ico",
+		shortcut: "/agoric-oracle-viewer/favicon-16x16.png",
+		apple: "/agoric-oracle-viewer/apple-touch-icon.png",
 	},
 };
 
